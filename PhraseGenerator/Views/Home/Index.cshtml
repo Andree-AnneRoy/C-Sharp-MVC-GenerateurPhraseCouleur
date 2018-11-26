@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Générateur de phrase/couleur</title>
+</head>
+<body>
+
+    <form action="/Home/App" method="get">
+        <br />
+        <label for="txtPhrase">Phrase :</label>
+        <input type="text" name="Phrase" id="txtPhrase" />           <br />   <br />
+        <label for="txtNbFois">Nb fois :</label>
+        <input type="text" name="NbFois" id="txtNbFois" />           <br />   <br />
+        <label for="txtCouleur">Couleur :</label>
+        <input type="text" name="Couleur" id="txtCouleur" />         <br />   <br />
+        <input type="submit" value="GO !" />
+    </form>
+
+</body>
+</html>

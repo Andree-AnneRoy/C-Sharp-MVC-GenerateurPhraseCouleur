@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "App";
+}
+
+<div>
+    @for (int k = 0; k < @Convert.ToInt32(ViewBag.NbFois); k++)
+    {
+        <font color="@ViewBag.Couleur"><h1>@ViewBag.Phrase</h1></font>
+    }
+</div>
